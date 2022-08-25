@@ -1,0 +1,28 @@
+.h-500-w-50{
+    height: 600px;
+    width:55%;
+}
+.h-250{
+    height: 200px;
+}
+.blur{
+    filter:blur(5px) ;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+.page-num{
+    position: relative;
+    bottom: 50%;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+
+}
+@media screen and (max-width: 767px) {
+    .h-500-w-50{
+        height: auto;
+        width: 90%;
+    }
+}

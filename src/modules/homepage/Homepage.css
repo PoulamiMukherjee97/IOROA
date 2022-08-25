@@ -1,0 +1,33 @@
+
+.h-500{
+    height: 500px;
+}
+.carousel-indicators button{
+    background-color: orange !important;
+}
+.achievements-img{
+    justify-content: end;
+}   
+.achievements-img-evn{
+    justify-content: start;
+}   
+@media screen and (max-width: 767px) {
+    .h-500{
+        height: 250px;
+    }
+    .achievements-img{
+        justify-content: center;
+    }
+    .achievements-img-evn{
+        justify-content: center;
+        
+    }   
+    .even{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+.carousel-caption{
+    color: orange;
+    text-shadow: 1px 1px black;
+}
