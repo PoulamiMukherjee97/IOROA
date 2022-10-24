@@ -1,10 +1,8 @@
-[{
-    "id": 1,
-    "title": "Information 1",
-    "desc": "<p>Our Association is pursuing with Indianoil Retired Welfare Association, New Delhi for a Meeting with Dir (HR) at Corporate office, New Delhi for settlement of long pending issues like Revision of PRMBF pending for more than 5 years, Issuing of Smart Card for admission at Hospital, Delink of Annuity with Exgratia, Payment of 1.5%PBT at per with ONGC, and so on.It has also been decided to call an internal Meeting with all the Units of Indian oil Retired officers Association to discuss about future course of action if IOCL Management refuse to meet with the representatives of all the units during April 2022.Let us hope for the best.</p>"
-},
-{
-    "id": 2,
-    "title": "Information 2",
-    "desc": "<p>This is to inform you that following three Eminent Doctors will share the stage on above date at 5 P. M. Sharp and advise you the Precautionary measures before, during and after the Disease.</p><ol class='text-left'><li>Dr.Biswajit pal, Neuro Medicine from Amri-Dhakuria</li><li>Dr.Sudip Mukherjee- Diabetes Specialist from C. M. R. I</li><li>Dr.Tanmoy Majhi -Heart Specialist from Ruby General Hospital</li></ol><p>Apart from this a team from Medica Hospital will be present there to carry on some preliminary Tests like Blood pressure, Sugar (Random) and PSA Test.Please take your seat inside the Hall sharp at 5 PM to hear the Valuable Advices from renowned doctors. Thanks. On behalf of Indian oil retired officers association.</p>"
-}]
+[
+    {
+        "id": 1,
+        "title": "Information",
+        "pdf":"InfoPdf.pdf",
+        "pdfDesc":"IROWA NEWS Issue No 46, July 2022"
+    }
+]

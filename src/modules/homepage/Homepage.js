@@ -16,15 +16,15 @@ const Homepage = () => {
         desg: 'Vice President',
         name: 'Sri K.G. Ray',
         phn: '9432296528',
-    },{
+    }, {
         desg: 'Vice President (Admin.)',
         name: 'Sri K. L. Pramanik',
         phn: '6291967675',
-    },{
+    }, {
         desg: 'GENERAL SECRETARY',
         name: 'Sri C. K. Naha',
         phn: '9831059173',
-    },{
+    }, {
         desg: 'Jt. Secretary',
         name: 'Sri J. K. Majumder',
         phn: '9836359320',
@@ -44,7 +44,7 @@ const Homepage = () => {
         name: 'Sri Alik Dey',
         phn: '9432669655',
     }
-];
+    ];
     const members = [{
         name: 'Shri R. K. Patra',
         phn: '9932024160',
@@ -52,13 +52,13 @@ const Homepage = () => {
     {
         name: 'Shri Sankar Nag',
         phn: '8910619140',
-    },{
+    }, {
         name: 'Shri Ajoy Roy',
         phn: '9477346487',
-    },{
+    }, {
         name: 'Shri Subrata Dutta',
         phn: '9874217472',
-    },{
+    }, {
         name: 'Shri Srikanta Santra',
         phn: '9434507353',
     },
@@ -66,7 +66,7 @@ const Homepage = () => {
         name: 'Shri Dyal Nandi',
         phn: '7439834233',
     },
-]
+    ]
     return (
         <div className="homepage">
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -74,7 +74,7 @@ const Homepage = () => {
                     {Carousel.map((item) => <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={item.id} className={item.id === 0 ? 'active' : ''} aria-current={item.id === 0} aria-label={`Slide ${item.id + 1}`}></button>)}
                 </div>
                 <div className="carousel-inner">
-                    {Carousel.map((item) => (<div className={`carousel-item ${item.id === 0 ? 'active': ''} h-500`}>
+                    {Carousel.map((item) => (<div className={`carousel-item ${item.id === 0 ? 'active' : ''} h-500`}>
                         <img src={imageUrlCreation(item.src)} className="d-block w-100" alt="..." />
                     </div>))}
                 </div>
@@ -122,7 +122,7 @@ const Homepage = () => {
                     <div className="col-12 col-md-4 text-dark bg-card p-3">
                         <h4>OFFICE BEARERS 2022</h4>
                         <ol className="fw-bold">
-                            {officers.map( officer => (<li className="mb-2">{`${officer.desg} : ${officer.name} (M: ${officer.phn})`}</li>))}
+                            {officers.map(officer => (<li className="mb-2">{`${officer.desg} : ${officer.name} (M: ${officer.phn})`}</li>))}
                         </ol>
                         <h4>MEMBERS</h4>
                         <ol>
@@ -149,23 +149,22 @@ const Homepage = () => {
                     </a>
                 </div>
                 <div className="mt-5">
-                <h4 className="mb-3">Our Social Work</h4>
-                {SocialWork.map((work) => (work.id / 2 ===0?<div className="row mx-0 border-primary-color mb-3">
-                    <div className="col-md-8 p-5 d-flex justify-content-center align-items-center">
-                        <h5>{work.text}</h5>
+                    <h4 className="mb-3">Our Social Work</h4>
+                    {SocialWork.map((work) => (work.id / 2 === 0 ? <div className="row mx-0 border-primary-color mb-3">
+                        <div className="col-md-8 p-5 d-flex justify-content-center align-items-center">
+                            <h5>{work.text}</h5>
+                        </div>
+                        <div className="col-md-4 d-flex achievements-img px-0">
+                            <img src={imageUrlCreation(work.src)} width="300px" height="300px" />
+                        </div>
+                    </div> : <div className="row mx-0 border-primary-color mb-3 even">
+                        <div className="col-md-4 d-flex achievements-img-evn px-0">
+                            <img src={imageUrlCreation(work.src)} width="300px" height="300px" />
+                        </div>
+                        <div className="col-md-8 p-5 d-flex justify-content-center align-items-center">
+                            <h5>{work.text}</h5>                    </div>
                     </div>
-                    <div className="col-md-4 d-flex achievements-img px-0">
-                        <img src={imageUrlCreation(work.src)} width="300px" height="300px" />
-                    </div>
-                </div> : <div className="row mx-0 border-primary-color mb-3 even">
-                    <div className="col-md-4 d-flex achievements-img-evn px-0">
-                        <img src={imageUrlCreation(work.src)} width="300px" height="300px" />
-                    </div>
-                    <div className="col-md-8 p-5 d-flex justify-content-center align-items-center">
-                        <h5>{work.text}</h5>
-                    </div>
-                </div>
-                ))}
+                    ))}
                 </div>
             </div>
 
