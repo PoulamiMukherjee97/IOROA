@@ -2,6 +2,11 @@
     {
         "id": 1,
         "title": "Information",
+        "pdf":"InfoPdf1.pdf",
+        "pdfDesc":"IROWA NEWS, October 2022"
+    },{
+        "id": 2,
+        "title": "Information",
         "pdf":"InfoPdf.pdf",
         "pdfDesc":"IROWA NEWS Issue No 46, July 2022"
     }
