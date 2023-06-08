@@ -9,8 +9,8 @@ const Homepage = () => {
     // console.log();
     const officers = [{
         desg: 'President',
-        name: 'Sri Amales Dutta',
-        phn: '8336955992',
+        name: 'Sri Pradip Majumder',
+        phn: '9073354425',
     },
     {
         desg: 'Vice President',
@@ -31,8 +31,8 @@ const Homepage = () => {
     },
     {
         desg: 'Treasurer',
-        name: 'Sri Kapil Santra',
-        phn: '9830970870',
+        name: 'Ashim Bera',
+        phn: '9733222445',
     },
     {
         desg: 'Asstt. Secretary',
@@ -48,6 +48,10 @@ const Homepage = () => {
     const members = [{
         name: 'Shri R. K. Patra',
         phn: '9932024160',
+    },
+    {
+        name: 'Shri Kapil Santra',
+        phn: '9830970870',
     },
     {
         name: 'Shri Sankar Nag',
@@ -75,7 +79,7 @@ const Homepage = () => {
                 </div>
                 <div className="carousel-inner">
                     {Carousel.map((item) => (<div className={`carousel-item ${item.id === 0 ? 'active' : ''} h-500`}>
-                        <img src={imageUrlCreation(item.src)} className="d-block w-100" alt="..." />
+                        <img src={imageUrlCreation(item.src)} className="d-block h-500 mx-auto" alt="..." />
                     </div>))}
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

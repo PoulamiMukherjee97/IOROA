@@ -70,10 +70,7 @@ const KnowYourBenefits = () => {
                   <a className="d-block mt-2" href="https://pwa.indianoil.in/eSambandh" target="_blank">Single Window for all Major Applications</a>
                 </p>
                 <p>Click on the link to check your Post Retirement Medical Benefit Facility
-                    <a className="d-block mt-2" target="_blank" href="https://prms.indianoil.in/(S(lvym1y4mo5f0icdts0n5it50))/self_Mob/DispDetails_Doc.aspx?docType=FORMS">eSambandh Portal</a>
-                </p>
-                <p>Click on the link below to check our Nominated Hospitals
-                    <a className="d-block mt-2" target="_blank" href="https://prms.indianoil.in/(S(y3cqlssyeb13xdzeozwntclp))/self_Mob/report_nominated_hospitals.aspx">eSambandh Portal-Nominated Hospitals</a>
+                    <a className="d-block mt-2" target="_blank" href="https://pwa.indianoil.in/eSambandh">eSambandh Portal</a>
                 </p>
                 <p>Click on the link below to access e-Pramaan Portal
                     <a className="d-block mt-2" target="_blank" href="https://cloud.indianoil.in/PRMS_LC/#/login/">ePramaan Portal</a>
