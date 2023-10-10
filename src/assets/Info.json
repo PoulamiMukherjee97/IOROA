@@ -1,16 +1,16 @@
 [
-{
-    "id": 0,
+    {
+        "id": 0,
+        "title": "NEWSLETTER",
+        "pdf":"IOROANews.pdf",
+        "pdfDesc":"IROWA NEWS Issue 50, July 2023"
+    },{
+    "id": 1,
     "title": "NEWSLETTER",
     "pdf":"IROWAApril2023Final.pdf",
     "pdfDesc":"IROWA NEWS Issue 49, April 2023"
 },
     {
-        "id": 1,
-        "title": "NEWSLETTER",
-        "pdf":"IROWANewsIssue48_Jan2023.pdf",
-        "pdfDesc":"IROWA NEWS Issue 48, Jan 2023"
-    },{
         "id": 2,
         "title": "Information",
         "pdf":"IOC_Nominated_Hospitals_2023.pdf",
